@@ -1,0 +1,22 @@
+.products{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:repeat(4, 4fr);
+}
+.cart{
+    padding: 1rem;
+    box-shadow: 2px 3px 8px rgba(0,0,0,.09);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addToCart{
+    border-radius: 10px;
+    padding: 5px 8px;
+    background-color: white;
+}
+.addToCart:hover{
+    background-color: rgba(128, 128, 128, 0.219);
+}
